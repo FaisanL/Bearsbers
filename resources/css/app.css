@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    background-color: #fdf7f4 !important;
+}
+.img {
+    width: 100px;
+}
+.cont-nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #8eb486;
+}
+.link {
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #685752;
+}
+.list-item {
+    display: flex; /* Make the list items behave like flex items */
+    align-items: center; /* Vertically center the content within the list items */
+}
+a:hover {
+    color: #997c70;
+}
