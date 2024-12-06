@@ -1,4 +1,12 @@
 @extends('layout') @section('title', 'Inicio') @section('content')
-<h1>Bienvenido a mi aplicación</h1>
-<p>Esta es la página de inicio.</p>
+<head>
+    @vite('resources/css/home.css')
+</head>
+<div class="img-layout">
+    <div class="cont-layout flex justify-center">
+        <div class="cont-title">
+            <h1 class="text-center">Agenda tu Cita!</h1>
+        </div>
+    </div>
+</div>
 @endsection

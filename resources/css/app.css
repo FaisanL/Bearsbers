@@ -26,3 +26,7 @@ body {
 a:hover {
     color: #997c70;
 }
+.cont-footer {
+    height: 100%;
+    background-color: #8eb486;
+}

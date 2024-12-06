@@ -18,7 +18,7 @@
         <nav class="flex items-center justify-between cont-nav">
             <div>
                 <img
-                    src="{{ asset('img/Bearsber.png') }}"
+                    src="{{ asset('home/Bearsber.png') }}"
                     alt="logo"
                     class="img"
                 />
@@ -40,6 +40,12 @@
         </nav>
 
         <!-- Contenido dinámico -->
-        <div class="container mt-4">@yield('content')</div>
+        @yield('content')
+
+        <footer class="cont-footer flex justify-center">
+            <p class="text-center text-gray-400">
+                Todos los derechos reservados &copy;
+            </p>
+        </footer>
     </body>
 </html>

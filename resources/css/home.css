@@ -1,0 +1,13 @@
+.img-layout {
+    background: url("/public/home/layout-home.png") no-repeat center center;
+    background-size: cover;
+    height: 60vh;
+}
+.cont-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont-title {
+    background-color: gray;
+}
