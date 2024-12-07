@@ -1,8 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+:root {
+    --primary-color: #685752;
+    --secondary-color: #fdf7f4;
+    --background-color: #8eb486;
+    --text-color: #997c70;
+}
+
 body {
-    background-color: #fdf7f4 !important;
+    background-color: var(--secondary-color) !important;
 }
 .img {
     width: 100px;
@@ -11,22 +18,22 @@ body {
     height: 100%;
     display: flex;
     align-items: center;
-    background-color: #8eb486;
+    background-color: var(--background-color);
 }
 .link {
     text-align: center;
     text-decoration: none;
     font-size: 1.2em;
-    color: #685752;
+    color: var(--primary-color);
 }
 .list-item {
     display: flex; /* Make the list items behave like flex items */
     align-items: center; /* Vertically center the content within the list items */
 }
 a:hover {
-    color: #997c70;
+    color: var(--text-color);
 }
 .cont-footer {
     height: 100%;
-    background-color: #8eb486;
+    background-color: var(--background-color);
 }
