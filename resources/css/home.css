@@ -1,3 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cont-somos {
+    background-color: aquamarine;
+    border-radius: 10px;
+}
 .img-layout {
     background: url("/public/home/layout-home.png") no-repeat center center;
     background-size: cover;
